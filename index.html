@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lato:wght@100&family=Lexend+Deca&family=Poppins:ital,wght@0,300;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Big+Shoulders+Display:wght@700&family=Lato:wght@100&family=Lexend+Deca&family=Poppins:ital,wght@0,300;0,600;1,400&display=swap" rel="stylesheet"><title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        min-height: 100%;
+        width: 100%;
+        background-color: white;
+        color: white;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .container .wrapper > div{
+        /* border: 1px solid black; */
+        width: 15%;
+        padding: 3px;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 12px;
+
+    }
+    .con img{
+        padding-top: 30px;
+    }
+    .con h2{
+        padding: 20px 0;
+        font-family: 'Big Shoulders Display', cursive;
+        color: hsl(0, 0%, 95%);
+    }
+    button{
+        border: none;
+        border-radius: 15px;
+        margin-top: 30px;
+        width: 60%;
+        height: 40px;
+    }
+    button:hover{
+        background-color: transparent ;
+    }
+    p{
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    .link {
+        /* background-color: #EB9700; */
+        width: 50%;
+        margin: auto;
+        height: 50px;
+        margin-top: 30px;
+      
+        
+    
+    }
+    .link a{
+        background-color: #E28525;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-size: 22px;
+        padding: 10px 25px;
+        border-radius: 15px;
+    }
+    
+    
+    
+</style>
+<body>
+    <div class="container">
+        <div class="wrapper">
+        <div class="con" style="background-color: #E28525;">
+            <div class="img">
+                <img src="./images/icon-sedans.svg" alt="">
+            </div>
+            <div class="write">
+                <h2>SEDANS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit molestias 
+                    ducimus aperiam tenetur voluptates. 
+                    Odio earum odit optio eaque labore.</p>
+            </div>
+            <div class="button">
+                <button style="color:#E28525 ;">Learn more</button>
+            </div>
+        </div>
+        <div class="con" style="background-color: #016972;">
+            <div class="img">
+                <img src="./images/icon-suvs.svg" alt="">
+            </div>
+            <div class="write">
+                <h2>SEDANS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit molestias 
+                    ducimus aperiam tenetur voluptates. 
+                    Odio earum odit optio eaque labore.</p>
+            </div>
+            <div class="button">
+                <button style="color: #016972 ;">Learn more</button>
+            </div>
+        </div>
+        <div class="con" style="background-color: #00403F;">
+            <div class="img">
+                <img src="./images/icon-luxury.svg" alt="">
+            </div>
+            <div class="write">
+                <h2>SEDANS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit molestias 
+                    ducimus aperiam tenetur voluptates. 
+                    Odio earum odit optio eaque labore.</p>
+            </div>
+            <div class="button">
+                <button style="color:#00403F ;">Learn more</button>
+            </div>
+        </div>    
+        
+    </div>
+    <div class="link">
+        <button> <a href="./grid.html">SHOW MORE</a> </button>
+    </div>   
+</div>
+</body>
+</html>
